@@ -1,6 +1,11 @@
 {
     "name": "JokerEvents-api",
+    "version": "1.0.0",
+    "description":"A backend api for the mobile application joker events",
     "main": "server.js",
+    "scripts": {
+       "start": "open http://localhost:8080 & node server.js"
+     },
     "dependencies": {
         "express": "~4.0.0",
         "mongoose": "~4.1.11",

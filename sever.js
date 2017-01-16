@@ -1,4 +1,3 @@
-// server.js
 
 // BASE SETUP
 // =============================================================================
@@ -23,6 +22,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 var port = process.env.PORT || 8080;
+
 
 // ROUTES FOR OUR API
 // =============================================================================
