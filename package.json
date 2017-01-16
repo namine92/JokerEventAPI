@@ -4,8 +4,11 @@
     "description":"A backend api for the mobile application joker events",
     "main": "server.js",
     "scripts": {
-       "start": "open http://localhost:8080 & node server.js"
+       "start": "node server.js"
      },
+     "engines": {
+   "node": "5.9.1"
+ },
     "dependencies": {
         "express": "~4.0.0",
         "mongoose": "~4.1.11",
