@@ -7,7 +7,7 @@ var express    = require('express');        // call express
 var app        = express();                 // define our app using express
 var bodyParser = require('body-parser');
 var mongoose   = require('mongoose');
-mongoose.connect('mongodb://amine:amine@ds111479.mlab.com:11479/jokerevent',function (err, database) {
+mongoose.connect('URI',function (err, database) {
   if (err) {
     console.log(err);
     process.exit(1);
